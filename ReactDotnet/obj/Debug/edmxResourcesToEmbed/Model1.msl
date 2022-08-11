@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CrudDemoModelStoreContainer" CdmEntityContainer="CrudDemoEntities1">
+    <EntitySetMapping Name="MainMenus">
+      <EntityTypeMapping TypeName="CrudDemoModel.MainMenu">
+        <MappingFragment StoreEntitySet="MainMenu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubMenus">
+      <EntityTypeMapping TypeName="CrudDemoModel.SubMenu">
+        <MappingFragment StoreEntitySet="SubMenu">
+          <ScalarProperty Name="Mid" ColumnName="Mid" />
+          <ScalarProperty Name="SubName" ColumnName="SubName" />
+          <ScalarProperty Name="SubUrl" ColumnName="SubUrl" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="studentmasters">
+      <EntityTypeMapping TypeName="CrudDemoModel.studentmaster">
+        <MappingFragment StoreEntitySet="studentmaster">
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="RollNo" ColumnName="RollNo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
